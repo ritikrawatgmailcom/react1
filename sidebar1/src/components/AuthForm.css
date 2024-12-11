@@ -1,0 +1,127 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+  
+  .form-container {
+    background-color: #fff;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 350px;
+  }
+  
+  .form-toggle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  
+  .form-toggle button {
+    flex: 1;
+    padding: 10px;
+    background-color: #ddd;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .form-toggle button:hover {
+    background-color: #bbb; /* Lighter gray for hover */
+  }
+  
+  .form-toggle button:active {
+    background-color: #555; /* Darker gray on click */
+    color: white;
+  }
+  
+  .form-toggle .active {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: normal;
+    font-size: 20px;
+  }
+  
+  .form input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+  }
+  
+  .form input:focus {
+    border-color: #007bff; /* Border color changes on focus */
+    outline: none;
+  }
+  
+  .form button {
+    padding: 12px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .form button:hover {
+    background-color: #555; /* Slightly lighter color on hover */
+    transform: scale(1.03); /* Add a subtle zoom effect */
+  }
+  
+  .form button:active {
+    background-color: #007bff; /* Blue color when clicked */
+    transform: scale(0.98); /* Slightly shrink on click */
+  }
+  
+  .form a {
+    color: #007bff;
+    text-decoration: underline;
+    font-size: 12px;
+  }
+  
+  .error {
+    color: #d9534f;
+    font-size: 14px;
+  }
+  
+  .success {
+    color: #5cb85c;
+    font-size: 14px;
+  }
+  .link-button {
+    background: none;
+    border: none;
+    color: #007bff;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 12px;
+    padding: 0;
+  }
+  
+  .link-button:hover {
+    color: #0056b3;
+  }
+  
+  
+  

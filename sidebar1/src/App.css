@@ -1,0 +1,28 @@
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.app-body {
+  display: flex;
+  height: 100vh;
+  margin-top: 50px; /* Ensures main content starts below the navbar */
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  margin-left: 250px; /* Ensures main content starts after the sidebar */
+  transition: margin-left 0.3s;
+  background-color: #f0f0f0; /* Fill empty space with color */
+}
+
+.sidebar.closed + .content {
+  margin-left: 50px;
+}
+
+body {
+  font-family: 'Verdana', sans-serif;
+  margin: 0;
+  background-color: #f0f0f0;
+}
